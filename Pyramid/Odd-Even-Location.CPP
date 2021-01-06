@@ -13,15 +13,15 @@ void main()
 	k=i+j-1;
 	if(k>i+j-2)
 	{
-	  printf("%d ",k);
+	  printf("%d\t",k);
 	  k--;
 	}
       }
       else
-	printf("%d ",j);
+	printf("%d\t",j);
     }
 
-    printf("\n");
+    printf("\n\n");
   }
 getch();
 }
